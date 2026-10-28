@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000">
+  <defs>
+    <linearGradient id="bgC" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0b0f" />
+      <stop offset="1" stop-color="#0f1218" />
+    </linearGradient>
+    <radialGradient id="glowC" cx="0.5" cy="0.5" r="0.55">
+      <stop offset="0" stop-color="#6e8cff" stop-opacity="0.2" />
+      <stop offset="1" stop-color="#6e8cff" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="gridC" width="100" height="100" patternUnits="userSpaceOnUse">
+      <path d="M100 0H0V100" fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="1" />
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#bgC)" />
+  <rect width="1600" height="1000" fill="url(#gridC)" />
+  <rect width="1600" height="1000" fill="url(#glowC)" />
+
+  <g stroke="rgba(255,255,255,0.12)" stroke-width="1.5" fill="none">
+    <path d="M800 500 420 260M800 500 1180 260M800 500 420 740M800 500 1180 740M800 500 800 200M800 500 800 800" />
+    <path d="M420 260 420 740M1180 260 1180 740" stroke-dasharray="6 10" stroke-opacity="0.6" />
+  </g>
+
+  <g fill="#0d1017" stroke="rgba(255,255,255,0.16)">
+    <circle cx="800" cy="500" r="86" />
+    <circle cx="420" cy="260" r="46" />
+    <circle cx="1180" cy="260" r="46" />
+    <circle cx="420" cy="740" r="46" />
+    <circle cx="1180" cy="740" r="46" />
+    <circle cx="800" cy="200" r="36" />
+    <circle cx="800" cy="800" r="36" />
+  </g>
+
+  <circle cx="800" cy="500" r="86" fill="rgba(110,140,255,0.16)" stroke="rgba(110,140,255,0.6)" />
+  <circle cx="120" cy="500" r="20" fill="rgba(255,255,255,0.1)" />
+  <circle cx="1480" cy="500" r="20" fill="rgba(255,255,255,0.1)" />
+  <path d="M140 500h480M980 500h480" stroke="rgba(255,255,255,0.1)" stroke-width="1.5" stroke-dasharray="6 10" />
+
+  <g fill="none" stroke="#6e8cff" stroke-opacity="0.55" stroke-width="2">
+    <path d="M1520 80h-40M1520 80v40" />
+    <path d="M80 920h40M80 920v-40" />
+  </g>
+
+  <text x="80" y="106" font-family="monospace" font-size="22" fill="rgba(255,255,255,0.32)" letter-spacing="5">
+    NEBULA LIFE · SERVICE MODULES
+  </text>
+</svg>

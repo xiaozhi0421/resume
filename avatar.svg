@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0d12" />
+      <stop offset="0.55" stop-color="#11141b" />
+      <stop offset="1" stop-color="#0a0c11" />
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.36" r="0.62">
+      <stop offset="0" stop-color="#6e8cff" stop-opacity="0.34" />
+      <stop offset="0.55" stop-color="#6e8cff" stop-opacity="0.07" />
+      <stop offset="1" stop-color="#6e8cff" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="figure" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dfe5f2" stop-opacity="0.5" />
+      <stop offset="1" stop-color="#8b93a6" stop-opacity="0.16" />
+    </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0.45" stop-color="#07080a" stop-opacity="0" />
+      <stop offset="1" stop-color="#07080a" stop-opacity="0.85" />
+    </linearGradient>
+    <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M80 0H0V80" fill="none" stroke="rgba(255,255,255,0.045)" stroke-width="1" />
+    </pattern>
+  </defs>
+
+  <rect width="800" height="1000" fill="url(#bg)" />
+  <rect width="800" height="1000" fill="url(#grid)" />
+  <rect width="800" height="1000" fill="url(#glow)" />
+
+  <circle cx="400" cy="392" r="132" fill="url(#figure)" />
+  <path d="M400 556c-118 0-214 76-238 180-6 26-9 54-9 84v180h494V820c0-30-3-58-9-84-24-104-120-180-238-180Z" fill="url(#figure)" />
+
+  <g stroke="rgba(255,255,255,0.06)" stroke-width="1">
+    <path d="M0 300h800M0 500h800M0 700h800" />
+  </g>
+
+  <rect width="800" height="1000" fill="url(#fade)" />
+
+  <g fill="none" stroke="#6e8cff" stroke-opacity="0.6" stroke-width="1.6">
+    <path d="M40 40h34M40 40v34" />
+    <path d="M760 40h-34M760 40v34" />
+    <path d="M40 960h34M40 960v-34" />
+    <path d="M760 960h-34M760 960v-34" />
+  </g>
+
+  <text x="40" y="936" font-family="monospace" font-size="20" fill="rgba(255,255,255,0.4)" letter-spacing="4">
+    PORTRAIT PLACEHOLDER
+  </text>
+</svg>
